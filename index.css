@@ -1,0 +1,26 @@
+
+/* Custom styles for KaTeX */
+.katex-display {
+  margin: 1em 0;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+.katex {
+  font-size: 1.1em;
+}
+
+/* Ensure prose doesn't override KaTeX styles */
+.prose .katex {
+  color: inherit;
+}
+
+.prose .katex-display {
+  color: inherit;
+}
+
+/* Fix for inline math overflow */
+.katex-html {
+  overflow-x: auto;
+  overflow-y: hidden;
+}

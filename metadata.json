@@ -1,0 +1,7 @@
+{
+  "name": "Elite12 - Trợ Lý Học Tập Siêu Cấp",
+  "description": "Ứng dụng hỗ trợ học tập toàn diện cho học sinh lớp 12, tập trung vào ba môn trọng tâm: Toán, Văn, Anh với sự hỗ trợ từ AI Gemini.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
